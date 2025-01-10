@@ -89,7 +89,7 @@ export const DATA = {
       badges: [],
       location: "Guelph, ON",
      
-      title: "IT Analysis and Develper Intern",
+      title: "IT Analysis and Developer Intern",
       logoUrl: "/nsf.png",
       start: "May 2023",
       end: "Dec 2023",
