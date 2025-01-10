@@ -68,7 +68,7 @@ export const DATA = {
       title: "Software Developer Intern",
       logoUrl: "/ircc.jpg",
       start: "Sep 2024",
-      end: "Present",
+      end: "Dec 2024",
       description: "",
     },
     {
@@ -213,12 +213,12 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "",
+          type: "Source",
+          href: "https://github.com/sdesai13/BookKeeper",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/librarian.png",
+      image: "/catalogue.png",
       video:
         "",
     },
