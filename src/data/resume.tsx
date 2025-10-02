@@ -26,10 +26,7 @@ export const DATA = {
     "OpenCV",
     "Tensorflow",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" }
-    
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "shwetang.desai@uwaterloo.ca",
     tel: "+19057839074",
@@ -61,10 +58,22 @@ export const DATA = {
 
   work: [
     {
+      company: "Cloudflare",
+
+      badges: [],
+      location: "Austin, Texas",
+      title: "Software Developer Intern",
+      logoUrl: "/cf_img.png",
+      start: "May 2025",
+      end: "Present",
+      description: "",
+    },
+
+    {
       company: "IRCC Canada",
 
       badges: [],
-      location: "Remote",
+      location: "Ottawa, ON",
       title: "Software Developer Intern",
       logoUrl: "/ircc.jpg",
       start: "Sep 2024",
@@ -88,7 +97,7 @@ export const DATA = {
 
       badges: [],
       location: "Guelph, ON",
-     
+
       title: "IT Analysis and Developer Intern",
       logoUrl: "/nsf.png",
       start: "May 2023",
@@ -98,7 +107,7 @@ export const DATA = {
     },
     {
       company: "Thoughtwire",
-      
+
       badges: [],
       location: "Toronto, ON",
       title: "Solution Architect Intern",
@@ -110,7 +119,6 @@ export const DATA = {
     },
   ],
   education: [
-   
     {
       school: "University of Waterloo",
       href: "https://uwaterloo.ca",
@@ -118,8 +126,7 @@ export const DATA = {
       logoUrl: "/waterloo.png",
       start: "2021",
       end: "2026",
-    }
-    
+    },
   ],
   projects: [
     {
@@ -129,10 +136,7 @@ export const DATA = {
       active: true,
       description:
         "Fully Functional Chess Game in C++ with a graphical and text user interface. We also created an AI to support player vs player, player vs computer, and computer vs computer game modes. Our AI has 3 levels of difficulty from levels 1 to 3.",
-      technologies: [
-        "C++"
-       
-      ],
+      technologies: ["C++"],
       links: [
         {
           type: "Source",
@@ -141,24 +145,17 @@ export const DATA = {
         },
       ],
       image: "/chessimage.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "BlackJack",
       href: "https://github.com/sdesai13/BlackJack",
       dates: "",
       active: true,
-      description: "This fully functional game features an immersive casino sound experience powered by Pygame, dynamic game logic built with Object-Oriented Programming (OOP), and an interactive GUI created using Tkinter. Developed in Python, the game offers a one-player experience where the player competes against the dealer."
-        ,
-      technologies: [
-        "Python",
-        "Pygame",
-        "Tkinter"
-       
-      ],
+      description:
+        "This fully functional game features an immersive casino sound experience powered by Pygame, dynamic game logic built with Object-Oriented Programming (OOP), and an interactive GUI created using Tkinter. Developed in Python, the game offers a one-player experience where the player competes against the dealer.",
+      technologies: ["Python", "Pygame", "Tkinter"],
       links: [
-       
         {
           type: "Source",
           href: "https://github.com/sdesai13/BlackJack",
@@ -173,18 +170,11 @@ export const DATA = {
       href: "https://github.com/sdesai13/Price-Model",
       dates: "",
       active: true,
-      description: "Developed a housing price prediction model using Python, Pandas, Scikit-Learn, and NumPy based on data scraped from 300+ listings. Achieved a Mean Absolute Percentage Error of 25% through hyperparameter tuning with grid search.",
-      
-      
-      technologies: [
-        "Python",
-        "Pandas",
-        "Numpy",
-        "Scikit-Learn",
-        
-      ],
+      description:
+        "Developed a housing price prediction model using Python, Pandas, Scikit-Learn, and NumPy based on data scraped from 300+ listings. Achieved a Mean Absolute Percentage Error of 25% through hyperparameter tuning with grid search.",
+
+      technologies: ["Python", "Pandas", "Numpy", "Scikit-Learn"],
       links: [
-        
         {
           type: "Source",
           href: "https://github.com/sdesai13/Price-Model",
@@ -209,7 +199,6 @@ export const DATA = {
         "Python",
         "Scikit-Learn",
         "Numpy",
-        
       ],
       links: [
         {
@@ -219,11 +208,8 @@ export const DATA = {
         },
       ],
       image: "/catalogue.png",
-      video:
-        "",
+      video: "",
     },
   ],
-  hackathons: [
-    
-  ],
+  hackathons: [],
 } as const;
