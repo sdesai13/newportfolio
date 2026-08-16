@@ -5,13 +5,13 @@ export const DATA = {
   name: "Shwetang desai",
   initials: "SD",
   url: "https://dillion.io",
-  location: "Waterloo, ON",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Austin, TX",
+  locationLink: "https://www.google.com/maps/place/Austin,+TX",
   description:
-    "Software Engineer who loves building cool stuff and making things better. Always up for learning new things and sharing what I know. Just having fun with tech!",
+    "Passionate about solving challenging technical problems.",
   summary:
-    "While pursuing my Computer Science degree at the University of Waterloo, I’ve crafted machine learning solutions and built full-stack applications used by real-world clients during internships at Martinrea and NSF International. Outside the classroom, I stay busy exploring data-driven insights and building innovative software, always driven by the challenge to create smarter, faster tech.",
-  avatarUrl: "/me.png",
+    "I graduated from the University of Waterloo with a Bachelor of Computer Science in June 2026. Across internships, I’ve built machine learning solutions and full-stack applications for real-world teams, and I enjoy using data and thoughtful engineering to make software smarter and more useful.",
+  avatarUrl: "/me-3.png",
   skills: [
     "React",
     "Next.js",
@@ -62,11 +62,24 @@ export const DATA = {
 
       badges: [],
       location: "Austin, Texas",
-      title: "Software Developer Intern",
+      title: "Systems Engineer",
+      logoUrl: "/cf_img.png",
+      start: "Aug 2026",
+      end: "Present",
+      description:
+        "I returned to Cloudflare as a full-time Systems Engineer after my Software Engineer internship.",
+    },
+    {
+      company: "Cloudflare",
+
+      badges: [],
+      location: "Austin, Texas",
+      title: "Software Engineer Intern",
       logoUrl: "/cf_img.png",
       start: "May 2025",
-      end: "Present",
-      description: "",
+      end: "December 2025",
+      description:
+        "At Cloudflare, I built a Go CLI with Kubernetes ephemeral containers that reduced manual effort by 90% while migrating 100+ enterprise accounts and automating organization creation. I also moved resources onto Terraform, reducing client setup time by 70%, and added 15+ Prometheus metrics and Grafana dashboard improvements that cut incident response time by 40%. A React dashboard landing page made organization setup and access provisioning more self-service.",
     },
 
     {
@@ -78,7 +91,8 @@ export const DATA = {
       logoUrl: "/ircc.jpg",
       start: "Sep 2024",
       end: "Dec 2024",
-      description: "",
+      description:
+        "At IRCC, I migrated a legacy JavaServer Pages fee-management app to Angular with a Spring REST API and Microsoft SQL Server, improving page load times by 20% for 50+ users. I improved search and filter performance by 15% with client-side pagination and lazy loading, and wrote Jasmine and Karma tests for 5+ Angular components to reach 85% coverage.",
     },
     {
       company: "Martinrea",
@@ -90,7 +104,7 @@ export const DATA = {
       start: "January 2024",
       end: "April 2024",
       description:
-        " implemented a comprehensive solution that reduced weld camera issue resolution time by 9 minutes using Flask, React, and SQL, benefiting over 20 users. I deployed a TensorFlow and OpenCV-based machine learning program that achieved 98% accuracy in weld quality detection and reduced cycle time by 16 seconds. Additionally, I developed a Python-based kernel density estimator integrated with SQL in Ignition, achieving 94% accuracy in predicting station downtime and optimizing task delegation. I also implemented a Python alert system to detect abnormal camera behavior, further improving issue detection time.",
+        "At Martinrea International, I developed a TensorFlow and OpenCV model that achieved 98% accuracy in real-time weld quality detection and cut cycle time by 16 seconds. I also built a Python kernel density estimator with SQL in Ignition to predict station downtime with 94% accuracy, and created a Flask, React, and SQL weld-camera monitoring system that cut issue resolution from 30 to 15 minutes for 20+ users.",
     },
     {
       company: "NSF International",
@@ -98,34 +112,34 @@ export const DATA = {
       badges: [],
       location: "Guelph, ON",
 
-      title: "IT Analysis and Developer Intern",
+      title: "Software Developer Intern",
       logoUrl: "/nsf.png",
       start: "May 2023",
       end: "Dec 2023",
       description:
-        " I created a blockchain solution using Kaleido and JavaScript, enhancing food supply chain security with six key improvements and boosting traceability to meet customer standards. I also developed a Python API with Flask for blockchain interaction, reducing transaction time by 43% and improving user experience. Additionally, I generated over 40 data reports through complex SQL queries on an Oracle Database, leading to a 20% improvement in operational efficiency.",
+        "At NSF International, I built a tamper-resistant supply-chain traceability solution with Kaleido and JavaScript. I also developed a Flask-based Python API for Hyperledger Fabric that cut blockchain transaction time by 43%, and optimized Oracle SQL queries for 40+ analytical reports, improving operational efficiency by 20%.",
     },
     {
       company: "Thoughtwire",
 
       badges: [],
       location: "Toronto, ON",
-      title: "Solution Architect Intern",
+      title: "Software Architect Intern",
       logoUrl: "/tw.jpeg",
       start: "May 2022",
       end: "August 2022",
       description:
-        "I designed software solutions, including occupancy detection and clinical data algorithms, to improve patient care and optimize operational processes in healthcare projects. I tested over 30 REST and SOAP APIs using Postman and SoapUI, ensuring seamless product integration and optimal performance. Additionally, I automated the entry of over 400 solution metrics using Python, significantly reducing manual workloads.",
+        "At ThoughtWire, I designed occupancy-detection and clinical-data algorithms for healthcare applications supporting patient care and operational workflows. I also tested 30+ REST and SOAP APIs with Postman and SoapUI to validate product integrations.",
     },
   ],
   education: [
     {
       school: "University of Waterloo",
       href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
+      degree: "Bachelor of Computer Science (BCS)",
       logoUrl: "/waterloo.png",
       start: "2021",
-      end: "2026",
+      end: "June 2026",
     },
   ],
   projects: [

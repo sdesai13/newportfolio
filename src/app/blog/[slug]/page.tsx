@@ -10,14 +10,17 @@ export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
 }
 
+type BlogRouteProps = {
+  params: Promise<{
+    slug: string;
+  }>;
+};
+
 export async function generateMetadata({
   params,
-}: {
-  params: {
-    slug: string;
-  };
-}): Promise<Metadata | undefined> {
-  let post = await getPost(params.slug);
+}: BlogRouteProps): Promise<Metadata | undefined> {
+  const { slug } = await params;
+  let post = await getPost(slug);
 
   let {
     title,
@@ -53,12 +56,9 @@ export async function generateMetadata({
 
 export default async function Blog({
   params,
-}: {
-  params: {
-    slug: string;
-  };
-}) {
-  let post = await getPost(params.slug);
+}: BlogRouteProps) {
+  const { slug } = await params;
+  let post = await getPost(slug);
 
   if (!post) {
     notFound();
